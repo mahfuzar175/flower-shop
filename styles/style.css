@@ -115,3 +115,14 @@ body{
     margin-top: 15px;
     line-height: 30px;
 }
+.flower-iamges{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 48px;
+    
+}
+.img{
+    width: 250px;
+    height: 250px;
+}

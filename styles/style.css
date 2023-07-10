@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+body{
+
+    font-family: 'Lato', sans-serif;
+      
+   }
 /*navigation bar style*/
 .menu-container{
     display:flex;
@@ -39,7 +44,6 @@
 }
 .title{
     color: #272727;
-    font-family: 'Lato', sans-serif;
     font-size: 50px;
     font-weight: 750;
     margin-top: 170px;
@@ -49,7 +53,6 @@
 
 .descriptions{
     color: rgba(39, 39, 39, 0.60);
-    font-family: 'Lato', sans-serif;
     font-size: 18px;
     margin-top: 25px;
     font-weight: 400;
@@ -64,9 +67,51 @@
     border: none;
     color: white;
 }
-.photo{
+.banner-photo{
     width: 500px;
     align-items: center;
     margin-right: 80px;
     
+}
+
+/* hot-deal section style */
+.hot-deal-container{
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+       
+}
+.hot-deal-container-text{
+    text-align: center;
+    margin-top: 15px;
+    padding-left: 110px;
+}
+.second-title{
+    color: #272727;
+    font-weight: 800;
+}
+.span{
+    color: #E55473;
+}
+.photo{
+    width: 300px;
+    padding-right: 120px;
+}
+
+/*instagram section style*/
+.container-two{
+    text-align:center ;
+    margin-top: 120px;
+}
+.insta{
+    color: #272727;
+    font-weight: 800;
+}
+.insta-text{
+    color: rgba(39, 39, 39, 0.60);
+    margin-top: 15px;
+    line-height: 30px;
 }

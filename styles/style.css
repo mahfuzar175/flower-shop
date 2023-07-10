@@ -138,7 +138,37 @@ body{
     
 
 }
-
+/*contact style*/
+.contact-section {
+    background-color: #f1f1f1;
+    padding: 50px;
+    text-align: center;
+  }
+  .contact-header{
+    padding-bottom: 15px;
+    color: #272727;
+    font-weight: 800;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background: #E55473;
+    color: white;
+    border: none;
+  }
+  
 
 /*footer section style*/
 .footer-text{

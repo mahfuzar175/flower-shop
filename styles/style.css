@@ -128,6 +128,20 @@ body{
     text-align: center;
     margin: 20px; 
 }
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about-info{
+    text-align: center;
+}
+.others-features{
+    padding: 80px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 120px; 
+}
 
 
 /* hot-deal section style */

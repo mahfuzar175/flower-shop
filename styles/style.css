@@ -95,11 +95,38 @@ body{
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding-top: 48px;
+    padding-top: 15px;
 }
-.fimg{
+.fimg1{
     width: 250px;
     height: 250px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding-top: 110px;
+    margin-top: 20px;
+}
+.fimg2{
+    width: 250px;
+    height: 250px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding-top: 110px;
+    margin-top: 20px;
+}
+.fimg3{
+    width: 250px;
+    height: 250px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding-top: 110px;
+    margin-top: 20px;
+}
+.href{
+    color: #272727;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    margin: 20px; 
 }
 
 
@@ -111,6 +138,7 @@ body{
     align-items: center;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
+    margin-top: 120px;
        
 }
 .hot-deal-container-text{
@@ -157,16 +185,42 @@ body{
 }
 
 /*latest deal style*/
-.latest-deal-section{
-    display: grid;
-    place-items: center;
-    margin: 125px 145px 125px 145px;
-    background-position: center;
+.latest-deal{
+    padding: 131px;
     border-radius: 8px;
-
-    
-
+    background-image: url('/Flower Asset/Rectangle 9.png');
+    margin: 130px;   
 }
+.latest-deal-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.latest-deal-text{
+    text-align: center;
+}
+.mail-submit-section{
+    text-align: center;
+}
+.inter-mail{
+    padding: 15px;
+    border: none;   
+}
+.latest-deal-title{
+    color: #272727;
+    text-align: center;
+    font-weight: 800;
+}
+.latest-deal-text{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.mail-submit-section{
+    margin-top: 20px;
+}
+
+
 /*contact style*/
 .contact-section {
     background-color: #f1f1f1;
@@ -183,12 +237,14 @@ body{
     flex-direction: column;
     max-width: 400px;
     margin: 0 auto;
+    
   }
-  
   .contact-form input,
   .contact-form textarea {
     margin-bottom: 20px;
     padding: 10px;
+    border: none;
+    
   }
   
   .contact-form button {
